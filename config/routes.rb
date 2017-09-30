@@ -5,3 +5,6 @@ end
 Rails.application.routes.draw do
   get 'todo/show', to:'todo#show'
 end
+
+get 'todo/show/ :id', to: 'todo #show'
+
