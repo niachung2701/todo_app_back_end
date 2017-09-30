@@ -1,0 +1,45 @@
+html{ font-family: sans-serif;
+}
+li{
+    padding: 5px;
+    margin-bottom: : 10px;
+}
+
+li:hover{
+    background-color: lightgreen;
+}
+.pomodoro-estimate{
+    color:red;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: lightblue;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+#add-new-todo-button{
+    font-size: 20px;
+    color: #FFF;
+    outline: none;
+    border-style: none;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 1px #90A4AE;
+    display: block;
+    background-color: #03A9F4;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+
+#add-new-todo-button:active{
+     box-shadow: 1px 1px 1px #90A4AE;
+     
+}
+
+
+#image-1{
+    margin: 0 auto;
+    display: block;
+}
