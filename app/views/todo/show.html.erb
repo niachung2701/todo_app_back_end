@@ -1,7 +1,7 @@
 
         <input type= "checkbox"/>
-        <h2><%= @todo_description %> <span><%=@todo_pomodoro_estimate%> pomodoros</span></h2>
-        <a href= "#">Edit</a>
+        <h2><%= @todo.description %> <span><%= @todo.pomodoro_estimate %> pomodoros </span></h2>
+        <a href= ""/todo/edit/<%= @todo.id %>" ">Edit</a>
         <a href= "#">Delete</a>
         <a href= "/todo/index">Go back...</a>
         <img id= "image-2" src="http://clipground.com/images/completed-clipart-8.jpg"></img>
