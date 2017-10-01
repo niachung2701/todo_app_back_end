@@ -1,6 +1,6 @@
 class TodoController < ApplicationController
     def index
-        
+    @todos = Todo.all     
     end
 
     def show
@@ -35,6 +35,8 @@ class TodoController < ApplicationController
         t.destroy
         redirect_to "/todo/index"
     end
+    
+        
         
 end    
 

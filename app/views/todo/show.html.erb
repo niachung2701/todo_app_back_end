@@ -1,9 +1,9 @@
 
         <input type= "checkbox"/>
         <h2><%= @todo.description %> <span><%= @todo.pomodoro_estimate %> pomodoros </span></h2>
-        <a href= ""/todo/edit/<%= @todo.id %>" ">Edit</a>
-        <a href= "#">Delete</a>
-        <a href= "/todo/index">Go back...</a>
+        <a href= "/todo/edit/<%= @todo.id %>">Edit</a>
+        <a href= <form action= "/todo/destroy/<%= @todo.id %>"</form> Delete</a>
+        <a href= "/">Go back...</a>
         <img id= "image-2" src="http://clipground.com/images/completed-clipart-8.jpg"></img>
     
 <h3>Todo #<%= params[:id] %></h3>
